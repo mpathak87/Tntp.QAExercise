@@ -73,3 +73,15 @@ And that observer should be able to edit that observation
 - Perform a [pull request](https://help.github.com/articles/about-pull-requests/), and we'll be able to see your code in the TNTP account!
 
 Feel free to reach out at any time to your contact at TNTP with any questions. **Good luck!**
+
+
+## Instructions
+
+The test are in test.js file. The test cases are created in selenium webdriver/node.js/mocha/chai.
+-Install node js on to your machine in order to run the test.
+-Install selenium webdriver with following command:npm install --save selenium-webdriver
+-Install chai with following command: npm install --save chai
+-Install mocha with following command npm install --save mocha
+-The following command is for selenium standalone server : java -jar seleniumjar.version.jar on the command line/console.
+-Open another instance of command/Console run the following command mocha --timeout 3000.
+ 
